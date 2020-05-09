@@ -29,7 +29,7 @@ function runTimer() {
   timer[2] = Math.floor(timer[3] - timer[1] * 100 - timer[0] * 6000);
 }
 
-// Match the text entered with the provided text on the page:
+// Match the text entered with the provided text on the page
 function spellCheck() {
   let textEntered = testArea.value;
   let originTextMatch = originText.substring(0, textEntered.length);
